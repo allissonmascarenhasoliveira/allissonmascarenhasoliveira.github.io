@@ -1,0 +1,105 @@
+html, body{
+    height: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(31,132,153,1) 100%);
+    background-image: url(imagens/fundo.png);
+    background-attachment: fixed;
+    
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+}
+.avatar{
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* social
+-----------------*/
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+.social img{
+    width: 33px;
+
+}
+
+/*lista de links
+-------------------*/
+.links-list{
+    list-style: none;
+}
+.links-list li{
+    margin: 10px 20px;
+}
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span{
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer{
+    background:rgba(31,132,153,1);
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+.footer span{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
