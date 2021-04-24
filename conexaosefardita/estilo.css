@@ -80,7 +80,13 @@ h2{
     margin-top: 10px;
 }
 
+#informe{
+    background: rgba(31,132,153,1);
+    color: white;
+}
+
 .footer{
+    flex-shrink: 0;
     background:rgba(31,132,153,1);
     padding: 12px;
     text-align: center;
