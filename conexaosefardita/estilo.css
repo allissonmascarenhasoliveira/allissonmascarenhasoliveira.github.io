@@ -53,6 +53,20 @@ h2{
 
 }
 
+.social input{
+    padding: 5px 20px;
+     margin-left: 15px; 
+     font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(248, 65, 65, .7);
+    border: 2px solid #fff;
+     border-radius: 5px;
+}
+.social input:hover {
+    background: rgba(50, 185, 50, 1);
+}
+
 /*lista de links
 -------------------*/
 .links-list{
@@ -71,7 +85,9 @@ h2{
     text-decoration: none;
     color: rgb(54,77,204);
     font-weight: bold;
-    
+}
+.links-list li a:hover{
+    opacity: 1;
 }
 
 .links-list li a span{
